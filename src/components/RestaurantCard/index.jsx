@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import ReactStars from 'react-rating-stars-component';
 
-import restaurante from '../../assets/restaurante-fake.png';
-import { Restaurant, RestaurantInfo, Title, Address, RestaurantPhoto } from './styles';
+import { Restaurant, RestaurantInfo, Address, RestaurantPhoto } from './styles';
 import Text from '../Text';
-import Skeleton from '../Skeleton';
+
 
 const ResturantCard = ({ restaurant, onClick }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
